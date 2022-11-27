@@ -2,30 +2,20 @@
 ### DATE:
 # <p align="center">Developing a Neural Network Regression Model</p>
 
-### AIM
+## AIM
 
 To develop a neural network regression model for the given dataset.
 
-### THEORY
+## THEORY
 
 Neural Networks Neural networks are a set of algorithms, modeled loosely after the human brain, that are designed to recognize patterns. They interpret sensory data through a kind of machine perception, labeling or clustering raw input. The patterns they recognize are numerical, contained in vectors, into which all real-world data, be it images, sound, text or time series, must be translated.
 
 The Neural network model contains input layer,two hidden layers and output layer.Input layer contains a single neuron.Output layer also contains single neuron.First hidden layer contains six neurons and second hidden layer contains four neurons.A neuron in input layer is connected with every neurons in a first hidden layer.Similarly,each neurons in first hidden layer is connected with all neurons in second hidden layer.All neurons in second hidden layer is connected with output layered neuron.Relu activation function is used here .It is linear neural network model.
 
-
-
-
-
-
-
-
-
-
-
-### Neural Network Model
+## Neural Network Model
 ![image](https://user-images.githubusercontent.com/75235167/187084520-1af19950-cff6-4683-81ba-5b2665968baa.png)
 
-### DESIGN STEPS
+## DESIGN STEPS
 
 ### STEP 1:
 
@@ -55,7 +45,7 @@ Plot the performance plot
 
 Evaluate the model with the testing data.
 
-### PROGRAM
+## PROGRAM
 ```python3
 # Developed By : Sandhya charu N
 # Register Number : 212220230041
@@ -105,11 +95,11 @@ x_n1=[[66]]
 x_n1_1=Scaler.transform(x_n1)
 ai_brain.predict(x_n1_1)
 ```
-### Dataset Information
+## Dataset Information
 
 ![image](https://user-images.githubusercontent.com/75235167/187084627-f9aa6370-ae23-4a7a-9426-90089b2cf233.png)
 
-### OUTPUT
+## OUTPUT
 
 ### Training Loss Vs Iteration Plot
 
@@ -123,6 +113,6 @@ ai_brain.predict(x_n1_1)
 
 ![image](https://user-images.githubusercontent.com/75235167/187227420-24880ae3-ab0d-4854-a7a3-8cc4b91adb8e.png)
 
-### RESULT
+## RESULT
 
 Succesfully created and trained a neural network regression model for the given dataset.
